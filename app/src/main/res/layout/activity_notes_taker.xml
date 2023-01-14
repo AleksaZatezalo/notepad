@@ -25,5 +25,25 @@
 
         </RelativeLayout>
     </androidx.appcompat.widget.Toolbar>
-
+    <EditText
+        android:id="@+id/editText_title"
+        android:hint="Title: "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:singleLine="true"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editText_notes"
+        android:hint="Add Notes: "
+        android:textColorHint="@color/white"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
 </LinearLayout>
