@@ -1,4 +1,4 @@
-package com.example.notepad.Models;
+package com.aleksa.notepad.Models;
 
 import androidx.cardview.widget.CardView;
 

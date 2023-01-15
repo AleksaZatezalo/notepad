@@ -1,4 +1,4 @@
-package com.example.notepad.Adapter;
+package com.aleksa.notepad.Adapter;
 
 import android.content.Context;
 import android.os.Build;
@@ -11,9 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.notepad.Models.Notes;
-import com.example.notepad.Models.NotesClickListener;
-import com.example.notepad.R;
+import com.aleksa.notepad.Models.Notes;
+import com.aleksa.notepad.Models.NotesClickListener;
+import com.aleksa.notepad.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -93,6 +93,11 @@ public class NotesListAdapter extends RecyclerView.Adapter<NotesViewHolder>{
     @Override
     public int getItemCount() {
         return list.size();
+    }
+
+    public void filterList(List<Notes> filteredList) {
+        list = filteredList;
+        notifyDataSetChanged();
     }
 }
 

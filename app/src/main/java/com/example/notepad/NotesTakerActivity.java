@@ -1,4 +1,4 @@
-package com.example.notepad;
+package com.aleksa.notepad;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.notepad.Models.Notes;
+import com.aleksa.notepad.Models.Notes;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

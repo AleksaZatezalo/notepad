@@ -1,4 +1,4 @@
-package com.example.notepad;
+package com.aleksa.notepad;
 
 import org.junit.Test;
 

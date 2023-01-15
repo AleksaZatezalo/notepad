@@ -1,4 +1,4 @@
-package com.example.notepad.Database;
+package com.aleksa.notepad.Database;
 
 
 import android.content.Context;
@@ -8,7 +8,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.example.notepad.Models.Notes;
+import com.aleksa.notepad.Models.Notes;
 
 @Database(entities = Notes.class, version = 1, exportSchema = false)
 public abstract class RoomDB extends RoomDatabase {

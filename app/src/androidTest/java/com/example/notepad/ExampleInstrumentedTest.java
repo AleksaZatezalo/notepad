@@ -1,4 +1,4 @@
-package com.example.notepad;
+package com.aleksa.notepad;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.notepad", appContext.getPackageName());
+        assertEquals("com.aleksa.notepad", appContext.getPackageName());
     }
 }
